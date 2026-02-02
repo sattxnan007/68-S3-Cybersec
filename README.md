@@ -8,9 +8,10 @@
 ## Environment
 ```sh
 cp env.simple .env
+```
 
-##Running services
-###Database
+## Running services
+### Database
 ```sh
 dokcer compose -f db.yaml up # moniting
 dokcer compose -f db.yaml up -d # background
